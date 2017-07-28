@@ -25,6 +25,8 @@
 		601A89441F2BA27B001F782C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		601A89471F2BA27B001F782C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		601A89491F2BA27B001F782C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601A89511F2BA845001F782C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		601A89531F2BA845001F782C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		922E9CC0DC073865A395E1FB /* Pods-FirebaseEnvironmentsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseEnvironmentsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseEnvironmentsDemo/Pods-FirebaseEnvironmentsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,8 +86,34 @@
 				601A89441F2BA27B001F782C /* Assets.xcassets */,
 				601A89461F2BA27B001F782C /* LaunchScreen.storyboard */,
 				601A89491F2BA27B001F782C /* Info.plist */,
+				601A894F1F2BA845001F782C /* Firebase */,
 			);
 			path = FirebaseEnvironmentsDemo;
+			sourceTree = "<group>";
+		};
+		601A894F1F2BA845001F782C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				601A89501F2BA845001F782C /* Dev */,
+				601A89521F2BA845001F782C /* Prod */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		601A89501F2BA845001F782C /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				601A89511F2BA845001F782C /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		601A89521F2BA845001F782C /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				601A89531F2BA845001F782C /* GoogleService-Info.plist */,
+			);
+			path = Prod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +413,7 @@
 				601A894E1F2BA27B001F782C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
