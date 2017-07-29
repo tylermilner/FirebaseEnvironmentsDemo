@@ -9,7 +9,7 @@ The main areas of interest include:
 * Firebase/Dev and Firebase/Prod folders.
     * These contain the `GoogleService-Info.plist` for the Firebase development and production environments. Note that the names of these files are kept as their defaults and they are *not* part of the app target.
 * "Setup Firebase Environment GoogleService-Info.plist" Run Script Build Phase
-    * This shell script, part of the target's *Build Phases*, is where the appropriate `GoogleService-Info.plist` is copied based on build configuration.
+    * This [shell script](https://gist.github.com/tylermilner/f8e9121d62c890cb707bc1810a7d57d9), part of the target's *Build Phases*, is where the appropriate `GoogleService-Info.plist` is copied based on build configuration.
 
 ### Prerequisites
 
