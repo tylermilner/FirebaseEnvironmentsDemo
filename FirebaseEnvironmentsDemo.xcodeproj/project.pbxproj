@@ -126,7 +126,7 @@
 				C8E38F46DC6D16E7B591F1E8 /* [CP] Check Pods Manifest.lock */,
 				601A89361F2BA27B001F782C /* Sources */,
 				601A89371F2BA27B001F782C /* Frameworks */,
-				60DCDCB11F2BAE48008EE887 /* Setup Firebase Environment GoogleServices-Info.plist */,
+				60DCDCB11F2BAE48008EE887 /* Setup Firebase Environment GoogleService-Info.plist */,
 				601A89381F2BA27B001F782C /* Resources */,
 				A76EB8FE32F0898247BE42CF /* [CP] Embed Pods Frameworks */,
 				BA55CF78E103D715950966FC /* [CP] Copy Pods Resources */,
@@ -189,14 +189,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		60DCDCB11F2BAE48008EE887 /* Setup Firebase Environment GoogleServices-Info.plist */ = {
+		60DCDCB11F2BAE48008EE887 /* Setup Firebase Environment GoogleService-Info.plist */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Setup Firebase Environment GoogleServices-Info.plist";
+			name = "Setup Firebase Environment GoogleService-Info.plist";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
