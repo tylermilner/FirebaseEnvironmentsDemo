@@ -129,7 +129,6 @@
 				60DCDCB11F2BAE48008EE887 /* Setup Firebase Environment GoogleService-Info.plist */,
 				601A89381F2BA27B001F782C /* Resources */,
 				A76EB8FE32F0898247BE42CF /* [CP] Embed Pods Frameworks */,
-				BA55CF78E103D715950966FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,7 +208,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseEnvironmentsDemo/Pods-FirebaseEnvironmentsDemo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseEnvironmentsDemo/Pods-FirebaseEnvironmentsDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -218,22 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseEnvironmentsDemo/Pods-FirebaseEnvironmentsDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA55CF78E103D715950966FC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseEnvironmentsDemo/Pods-FirebaseEnvironmentsDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseEnvironmentsDemo/Pods-FirebaseEnvironmentsDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8E38F46DC6D16E7B591F1E8 /* [CP] Check Pods Manifest.lock */ = {
