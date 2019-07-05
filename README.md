@@ -39,8 +39,8 @@ Switch the scheme to "Release" and build the project again. This time, you shoul
 At the time of writing, the sample project uses the following technologies:
 
 * Xcode 10.2.1
-* CocoaPods 1.3.0.beta.2
-* Firebase iOS SDK 4.0.3
+* CocoaPods 1.7.3
+* Firebase iOS SDK 6.3.0
 
 ## License
 
