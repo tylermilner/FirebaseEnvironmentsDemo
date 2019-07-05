@@ -158,7 +158,7 @@
 			};
 			buildConfigurationList = 601A89351F2BA27B001F782C /* Build configuration list for PBXProject "FirebaseEnvironmentsDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
